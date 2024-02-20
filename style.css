@@ -15,7 +15,7 @@ body{
   
   .firstcontainer {
     width: 100%;
-    height: 500px;
+    height: 615px;
     background: #74c69d;
     color: white;
   }
@@ -24,7 +24,7 @@ body{
     height: 60px;
     background-color: #74c69d;
     align-items: center;
-    width: 1260px;
+    width: 100%;
     padding-top: 20px;
     /* margin-left: 80px;
     margin-right: 80px; */
@@ -46,6 +46,8 @@ body{
     text-decoration: none;
     font-size: 18px;
     color: white;
+    font-family: sans-serif;
+    font-weight: 100;
   }
   
   .welcomecontainer {
@@ -56,16 +58,20 @@ body{
   }
   
   .welcomecontainerone {
-    width: 50%;
-    height: 200px;
+    width: 40%;
+     
   }
   .welcomecontaineronea {
-    width: 65%;
-    height: 300px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    margin: 15px 0px;
+   
   }
   
   .welcomecontaineronea h4 {
     margin-top: 27px;
+    letter-spacing: 0.6em;
+    font-family: sans-serif;
   }
   
   .welcomecontaineronea h1 {
@@ -74,6 +80,8 @@ body{
   
   .welcomecontaineronea p {
     line-height: 22px;
+    color: rgb(219, 219, 219);
+    font-size: 20px;
   }
   
   .welcomecontaineronea button {
@@ -88,12 +96,13 @@ body{
   }
   
   .welcomecontainertwo {
-    width: 50%;
+    width: 60%;
+    padding-right: 190px;
   }
   
   .welcomecontainertwo img {
-    width: 100%;
-    height: 300px;
+    width: 900px;
+    height: 440px;
   }
   
   .main {
@@ -101,7 +110,7 @@ body{
   }
   
   .secondcontainer {
-    width: 1120px;
+    
     margin-left: 80px;
     margin-right: 80px;
   }
@@ -112,9 +121,11 @@ body{
   }
   
   .secondcontainerone h4 {
-    padding-top: 20px;
-    font-size: 20px;
+    padding-top: 55px;
+    font-size: 15px;
     color: #74c69d;
+    letter-spacing: 0.6em;
+    font-family: sans-serif;
   }
   
   .secondcontainerone h2 {
@@ -125,7 +136,7 @@ body{
   .secondcontainerone p {
     padding-top: 15px;
     line-height: 30px;
-    font-size: 22px;
+    font-size: 20px;
   }
   
   .secondcontainertwo {
@@ -133,109 +144,119 @@ body{
     display: flex;
     justify-content: space-between;
   }
+
+  .secondcontainertwo>img{
+    width: 150px;
+    height: 50px;
+  }
   
   .secondcontainerthree {
     text-align: center;
   }
   .secondcontainerthree button {
-    width: 160px;
-    height: 50px;
+    width: 138px;
+    height: 43px;
     background-color: black;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     border: none;
     border-radius: 5px;
   }
   
   .thirdcontainer {
-    padding-top: 30px;
-    width: 1120px;
+    padding-top: 75px;
     margin-left: 80px;
     margin-right: 80px;
     display: flex;
   }
   
   .thirdcontainerone {
-    width: 100%;
+    width: 60%;
+    padding-right: 140px;
   }
   
   .thirdcontainerone img {
-    width: 100%;
-    height: 350px;
+     
   }
   
   .thirdcontainertwo {
-    width: 100%;
+  
   }
   
   .thirdcontainertwoa {
-    padding-top: 40px;
-    width: 70%;
-    margin-left: 30%;
+    padding: 75px 0px;
+    margin: 15px 0px;
   }
   
   .thirdcontainertwoa h2 {
     font-size: 30px;
+    line-height: 40px;
   }
   
   .thirdcontainertwoa p {
     padding-top: 20px;
-    font-size: 18px;
+    line-height: 22px;
+    color: rgb(182 180 180);
+    font-size: 20px;
   }
   
   .thirdcontainertwoa button {
     margin-top: 20px;
-    width: 160px;
-    height: 50px;
+    width: 138px;
+    height: 43px;
     background-color: black;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     border: none;
     border-radius: 5px;
+
   }
   
   .fourthcontainer {
-    padding-top: 30px;
-    width: 1120px;
+    padding-top: 75px;
     margin-left: 80px;
     margin-right: 80px;
     display: flex;
   }
   
   .fourthcontainerone {
-    width: 100%;
+    
   }
   
   .fourthcontaineronea {
-    padding-top: 80px;
-    width: 70%;
-    /* margin-left: 30%;  */
+    padding: 125px 0px;
+    margin: 15px 0px;
+ 
   }
   .fourthcontaineronea h2 {
     font-size: 30px;
+    line-height: 40px;
   }
   .fourthcontaineronea p {
     padding-top: 20px;
-    font-size: 18px;
+    line-height: 22px;
+    color: rgb(182 180 180);
+    font-size: 20px;
   }
   .fourthcontaineronea button {
     margin-top: 20px;
-    width: 160px;
-    height: 50px;
+    width: 138px;
+    height: 43px;
     background-color: black;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     border: none;
     border-radius: 5px;
   }
   
   .fourthcontainertwo {
-    width: 100%;
+    width: 60%;
+    padding-left: 180px;
   }
   
   .fourthcontainertwo img {
-    width: 100%;
-    height: 350px;
+    width: 500px;
+    height: 540px;
   }
   
   .fifthcontainer {
