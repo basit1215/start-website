@@ -260,7 +260,7 @@ body{
   }
   
   .fifthcontainer {
-    width: 1120px;
+    
     margin-left: 80px;
     margin-right: 80px;
   }
@@ -271,9 +271,11 @@ body{
   }
   
   .fifthcontainerone h4 {
-    padding-top: 20px;
-    font-size: 20px;
+    padding-top: 55px;
+    font-size: 15px;
     color: #74c69d;
+    letter-spacing: 0.6em;
+    font-family: sans-serif;
   }
   
   .fifthcontainerone h2 {
@@ -284,7 +286,7 @@ body{
   .fifthcontainerone p {
     padding-top: 15px;
     line-height: 30px;
-    font-size: 22px;
+    font-size: 20px;
   }
   
   .fifthcontainertwo {
@@ -294,12 +296,17 @@ body{
   }
   
   .fifthcontainertwo div {
-    width: 230px;
-    height: 260px;
+    width: 242px;
+    height: 290px;
     background-color: rgb(255, 255, 255);
     text-align: center;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 10px;
+  }
+
+  .fifthcontainertwo> div >img{
+    position: relative;
+    top: 20px;
   }
   
   .fifthcontainerthree {
@@ -308,12 +315,12 @@ body{
   }
   
   .fifthcontainerthree button {
-    margin-top: 40px;
-    width: 160px;
-    height: 50px;
+    margin-top: 50px;
+    width: 138px;
+    height: 43px;
     background-color: black;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     border: none;
     border-radius: 5px;
   }
@@ -325,7 +332,6 @@ body{
   }
   
   .footercontainer {
-    width: 1120px;
     margin-left: 80px;
     margin-right: 80px;
     padding-top: 40px;
@@ -337,178 +343,7 @@ body{
     color: #fff;
   }
   
-  /* PORTFOLIO CODING */
-  
-  .mainportfolio {
-    width: 1120px;
-    margin-left: 80px;
-    margin-right: 80px;
-  }
-  
-  .portfoliotext {
-    width: 100%;
-    text-align: center;
-  }
-  
-  .portfoliotext h4 {
-    padding-top: 20px;
-    font-size: 20px;
-    color: #74c69d;
-  }
-  
-  .portfoliotext h1 {
-    padding-top: 10px;
-    font-size: 34px;
-  }
-  
-  .portfoliotext p {
-    padding-top: 15px;
-    line-height: 30px;
-    font-size: 22px;
-  }
-  
-  .portfolioimg {
-    padding-top: 70px;
-    gap: 25px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .portfolioimg img {
-    width: 525px;
-  }
-  
-  .portfoliobutton {
-    width: 1120px;
-    text-align: center;
-  }
-  
-  .portfoliobutton button {
-    margin-top: 40px;
-    width: 160px;
-    height: 50px;
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  /* SERVICE CODING */
-  
-  .servicemain {
-    width: 1120px;
-    margin-left: 80px;
-    margin-right: 80px;
-  }
-  
-  .servicetext {
-    width: 100%;
-    text-align: center;
-  }
-  
-  .servicetext h4 {
-    padding-top: 20px;
-    font-size: 20px;
-    color: #74c69d;
-  }
-  
-  .servicetext h1 {
-    padding-top: 10px;
-    font-size: 34px;
-  }
-  
-  .servicetext p {
-    padding-top: 15px;
-    line-height: 30px;
-    font-size: 22px;
-  }
-  
-  .seviceimg {
-    width: 1120px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .seviceimg img {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-  
-  
-  
-  
-  
-  /* CONTACT STYLE CODING */
-  
-  .contacttext {
-      width: 1120px;
-      margin-left: 80px;
-      text-align: center;
-  }
-  .contacttext h1 {
-      padding-top: 10px;
-      font-size: 34px;
-    }
-    
-    .contacttext p {
-      padding-top: 10px;
-      line-height: 30px;
-      font-size: 22px;
-    }
-  
-    .contactcontainermessage{
-      width: 1120px;
-      margin-left: 80px;
-      margin-right: 80%;
-      display: flex;
-      justify-content: space-between;
-    }
-  
-    .contactform{
-      width: 50%;
-    }
-  
-    .contactform label{
-      font-size: 18px;
-    }
-  
-    .contactform input{
-      margin-top: 5px;
-      margin-bottom: 5px;
-      width: 90%;
-      border: 2px solid black;
-      border-radius: 5px;
-      height: 30px;
-    }
-  
-    .contactform textarea{
-      margin-top: 5px;
-      margin-bottom: 5px;
-      width: 90%;
-      border: 2px solid black;
-      border-radius: 5px;
-      height: 100px;
-    }
-  
-    .contactform button{
-      width: 90%;
-      height: 30px;
-      font-size: 18px;
-      background-color: black;
-      color: #fff;
-      border-radius: 5px;
-  
-    }
-  
-    .contactimg{
-      width: 50%;
-    }
-  
-    .contactimg img{
-      width: 90%;
-      height: 90%;
-    }
-  
+   
   
   @media (max-width: 375px) {
   
